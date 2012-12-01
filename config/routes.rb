@@ -1,4 +1,8 @@
 Fameinfifteen::Application.routes.draw do
+  resources :videos
+
+  resources :users
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
